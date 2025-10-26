@@ -330,16 +330,18 @@ button:hover {
 }
 
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     gap: 48px 24px;
     justify-content: center;
     padding: 120px 156px 0 156px;
 }
 
 .image-overlay {
-    position: relative;
-    overflow: hidden;
+   position: relative;
+   overflow: hidden;
+   
 }
 
 .overlay {
