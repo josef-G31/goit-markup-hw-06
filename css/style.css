@@ -330,8 +330,7 @@ button:hover {
 }
 
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 48px 24px;
     justify-content: center;
     padding: 120px 156px 0 156px;
